@@ -81,7 +81,7 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-/* ------------------HADER------------------- */
+/* ------------------HEADER------------------- */
 
 .header {
 }
@@ -113,17 +113,25 @@ a {
 .header-link:focus {
   background-color: tomato;
 }
-.hero{
+
+/* ------------------HERO------------------- */
+.hero {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.hero-title{
-
+.hero-title {
 }
-.hero-text{
-
+.hero-text {
 }
-.hero-btn{
-
+.hero-btn {
 }
 
+/* ------------------PROJECTS------------------- */
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+.projects-item {
+  width: 339px;
+}

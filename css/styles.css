@@ -1,23 +1,23 @@
 :root {
-    --primary-brand: #4d5ae5;
-    --dark: #2e2f42;
-    --success: #31d0aa;
-    --text: #434455;
-    --subtle-text: #8e8f99;
-    --accent: #e7e9fc;
-    --light: #f4f4fd;
-    --button-active: #404bbf;
-    --white-text-color: #ffffff;
-    --modal-bg: #fcfcfc;
-    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --primary-brand: #4d5ae5;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --button-active: #404bbf;
+  --white-text-color: #ffffff;
+  --modal-bg: #fcfcfc;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
-    font-family: Roboto, sans-serif;
-    color: var(--dark);
-    background-color: #ffffff;
-    font-size: 16px;
-    letter-spacing: 0.02em;
+  font-family: Roboto, sans-serif;
+  color: var(--dark);
+  background-color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0.02em;
 }
 
 h1,
@@ -27,45 +27,45 @@ h4,
 h5,
 h6,
 p {
-    margin: 0;
+  margin: 0;
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 address {
-    font-style: normal;
+  font-style: normal;
 }
 
 button {
-    display: block;
-    cursor: pointer;
-    border: none;
-    border-radius: 4px;
+  display: block;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
 }
 
 ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .container {
-    width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .visually-hidden {
@@ -75,7 +75,7 @@ a {
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -83,15 +83,24 @@ a {
 }
 /* ------------------HADER------------------- */
 
-
-
 .header {
 }
+.header .container {
+  display: flex;
+  align-items: center;
+}
+/* .header-wrap {
+  display: flex;
+  align-items: center;
+} */
 .header-logo {
 }
 .header-nav {
+  margin-left: auto;
 }
 .header-list {
+  display: flex;
+  align-items: center;
 }
 .header-item {
 }
